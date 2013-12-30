@@ -1,0 +1,1 @@
+java -cp "G:\JAVA\java≈‡—µ\SummerCoreJava\TallyBook\lib\my.jar";"G:\JAVA\java≈‡—µ\SummerCoreJava\TallyBook\lib\datepicker.jar";"G:\JAVA\java≈‡—µ\SummerCoreJava\TallyBook\test.jar" ui.MainformAction.MainframeAction
