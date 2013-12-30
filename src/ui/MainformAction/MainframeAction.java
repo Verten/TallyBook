@@ -179,6 +179,10 @@ public class MainframeAction {
 						JOptionPane.showMessageDialog(mf,
 								"Save data Successfully.", "Message", 1);
 						break;
+					}else{
+						JOptionPane.showMessageDialog(mf,
+								"Save data Failed.", "Message", 1);
+						break;
 					}
 				}
 			} catch (Exception e) {
@@ -205,6 +209,10 @@ public class MainframeAction {
 					if(dataThread.isResult()){
 						JOptionPane.showMessageDialog(mf,
 								"Save data Successfully.", "Message", 1);
+						break;
+					}else{
+						JOptionPane.showMessageDialog(mf,
+								"Save data Failed.", "Message", 1);
 						break;
 					}
 				}
@@ -236,6 +244,10 @@ public class MainframeAction {
 							JOptionPane.showMessageDialog(mf,
 									"Save data Successfully.", "Message", 1);
 							break;
+						}else{
+							JOptionPane.showMessageDialog(mf,
+									"Save data Failed.", "Message", 1);
+							break;
 						}
 					}
 				} catch (Exception e) {
@@ -266,6 +278,10 @@ public class MainframeAction {
 						if(dataThread.isResult()){
 							JOptionPane.showMessageDialog(mf,
 									"Save data Successfully.", "Message", 1);
+							break;
+						}else{
+							JOptionPane.showMessageDialog(mf,
+									"Save data Failed.", "Message", 1);
 							break;
 						}
 					}
